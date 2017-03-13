@@ -3,7 +3,8 @@ layout: post
 title:  "用电脑把Shadowsocks代理共享给局域网里的其他设备(比如Iphone)!"
 date:   2017-03-12 01:14:54
 categories: 网络
-excerpt: fork 了之后同步，fork了别人的代码，保持远程同步。
+tags:  Shadowsocks 翻墙 Iphone
+author: Peffer
 ---
 
 * content

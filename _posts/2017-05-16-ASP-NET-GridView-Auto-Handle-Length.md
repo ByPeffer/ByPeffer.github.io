@@ -18,7 +18,7 @@ Gridview绑定数据的时候，某列数据内容较多，由于项目页面显
 超出固定长度用...代替，用ToolTip来提示全部信息。
 
 # 解决方案：
-####1.设置Css
+#### 1.设置Css
 ```css
 <style type="text/css">  
 .mlength  
@@ -32,7 +32,7 @@ text-overflow: ellipsis;
 }  
 </style>  
 ```
-####2.前台模版列设置
+#### 2.前台模版列设置
 ```CSharp
 <asp:Label ID="Label1" runat="server" Text='<%# Eval("字段") %>' CssClass="mlength"  ToolTip='<%# Eval("字段") %>'></asp:Label> 
 ```
